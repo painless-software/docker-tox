@@ -1,4 +1,4 @@
-FROM themattrix/tox
+FROM themattrix/tox-base
 
 MAINTAINER Peter Bittner <peter@painless.software>
 
