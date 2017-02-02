@@ -12,3 +12,21 @@ Derives from [`themattrix/tox`](https://hub.docker.com/r/themattrix/tox/), which
 
 - [Usage](https://github.com/themattrix/docker-tox#usage) (README of the parent image)
 - [Contribute](https://github.com/painless-software/docker-tox/) (GitHub repository)
+
+Example
+-------
+
+Run tests with tox from your repository root:
+
+```
+# docker-compose.yml
+
+version: '2'
+
+services:
+  app:
+    image: painless/tox
+    volumes:
+      - .:/app
+
+```
