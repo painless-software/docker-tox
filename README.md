@@ -18,7 +18,7 @@ Example
 
 Run tests with tox from your repository root:
 
-```
+``` yaml
 # docker-compose.yml
 
 version: '2'
