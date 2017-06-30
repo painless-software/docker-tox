@@ -13,6 +13,12 @@ Derives from [`themattrix/tox`](https://hub.docker.com/r/themattrix/tox/), which
 - [Usage](https://github.com/themattrix/docker-tox#usage) (README of the parent image)
 - [Contribute](https://github.com/painless-software/docker-tox/) (GitHub repository)
 
+Supported Tags
+--------------
+
+- [`latest`](https://github.com/painless-software/docker-tox/blob/master/Dockerfile#L7-L8) (base image with tox and Git)
+- [`multi`](https://github.com/painless-software/docker-tox/blob/multi/Dockerfile#L7-L9) (provides additional software for running tests against multiple technologies, such as PHP Composer)
+
 Example
 -------
 
