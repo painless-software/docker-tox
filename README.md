@@ -17,7 +17,8 @@ Supported Tags
 --------------
 
 - [`latest`](https://github.com/painless-software/docker-tox/blob/master/Dockerfile#L7-L8) (base image with tox and Git)
-- [`multi`](https://github.com/painless-software/docker-tox/blob/master/multi/Dockerfile#L15-L17) (provides additional software for running tests against multiple technologies, such as PHP Composer)
+- [`multi`](https://github.com/painless-software/docker-tox/blob/master/multi/Dockerfile#L15-L17) (provides additional software for running tests against multiple technologies, such as PHP Composer and [mysql_config](
+    https://stackoverflow.com/questions/5178292/pip-install-mysql-python-fails-with-environmenterror-mysql-config-not-found))
 
 Example
 -------
