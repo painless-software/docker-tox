@@ -1,12 +1,16 @@
 Tox
 ===
 
-*Available on Docker Hub as [`painless/tox`](https://hub.docker.com/r/painless/tox/).*
+[![dockeri.co](http://dockeri.co/image/painless/tox)](https://hub.docker.com/r/painless/tox/)
+
+[![MIT License](https://img.shields.io/github/license/painless-software/docker-tox.svg)](https://github.com/painless-software/docker-tox/blob/master/LICENSE
+) [![GitHub issues](https://img.shields.io/github/issues-raw/painless-software/docker-tox.svg)](https://github.com/painless-software/docker-tox/issues
+) [![GitHub PRs](https://img.shields.io/github/issues-pr-raw/painless-software/docker-tox.svg)](https://github.com/painless-software/docker-tox/pulls)
 
 Alternative Docker base image for Python testing with [tox](https://tox.readthedocs.io/en/latest/). If you need Git.
 
-Details
--------
+Standardized Test Automation For Python
+---------------------------------------
 
 Derives from [`themattrix/tox`](https://hub.docker.com/r/themattrix/tox/), which you should use if you don't need Git.
 
@@ -16,9 +20,11 @@ Derives from [`themattrix/tox`](https://hub.docker.com/r/themattrix/tox/), which
 Supported Tags
 --------------
 
-- [`latest`](https://github.com/painless-software/docker-tox/blob/master/Dockerfile#L7-L8) (base image with tox and Git)
-- [`multi`](https://github.com/painless-software/docker-tox/blob/master/multi/Dockerfile#L15-L17) (provides additional software for running tests against multiple technologies, such as PHP Composer and [mysql_config](
-    https://stackoverflow.com/questions/5178292/pip-install-mysql-python-fails-with-environmenterror-mysql-config-not-found))
+- [`latest`](https://github.com/painless-software/docker-tox/blob/master/Dockerfile#L7-L8) ![Layers](
+  https://images.microbadger.com/badges/image/painess/tox:latest.svg) (base image with tox and Git)
+- [`multi`](https://github.com/painless-software/docker-tox/blob/master/multi/Dockerfile#L15-L17) ![Layers](
+  https://images.microbadger.com/badges/image/painess/tox:multi.svg) (provides additional software for running tests against multiple technologies, such as PHP Composer and [mysql_config](
+  https://stackoverflow.com/questions/5178292/pip-install-mysql-python-fails-with-environmenterror-mysql-config-not-found))
 
 Example
 -------
@@ -35,5 +41,4 @@ services:
     image: painless/tox
     volumes:
       - .:/app
-
 ```
