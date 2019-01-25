@@ -20,12 +20,20 @@ Derives from [`themattrix/tox`](https://hub.docker.com/r/themattrix/tox/), which
 Supported Tags
 --------------
 
-- [`latest`](https://github.com/painless-software/docker-tox/blob/master/Dockerfile#L7-L8) [![Image Layers](
-  https://img.shields.io/imagelayers/layers/painless/tox/latest.svg)](https://imagelayers.io/?images=painless/tox:latest
-  ) (base image with tox and Git)
-- [`multi`](https://github.com/painless-software/docker-tox/blob/master/multi/Dockerfile#L15-L17) [![Image Layers](
-  https://img.shields.io/imagelayers/layers/painless/tox/multi.svg)](https://imagelayers.io/?images=painless/tox:multi
-  ) (provides additional software for running tests against multiple technologies, such as PHP Composer and [mysql_config](
+- [![latest](
+  https://img.shields.io/badge/-latest-blue.svg?colorA=22313f&colorB=4a637b&logo=docker)](
+  https://github.com/painless-software/docker-tox/blob/master/Dockerfile#L7-L8) [![image layers](
+  https://img.shields.io/microbadger/layers/painless/tox/latest.svg)](
+  https://microbadger.com/images/painless/tox) [![image size](
+  https://img.shields.io/microbadger/image-size/painless/tox/latest.svg)](
+  https://microbadger.com/images/painless/tox) (base image with tox and Git)
+- [![multi](
+  https://img.shields.io/badge/-multi-blue.svg?colorA=22313f&colorB=4a637b&logo=docker)](
+  https://github.com/painless-software/docker-tox/blob/master/multi/Dockerfile#L15-L17) [![image layers](
+  https://img.shields.io/microbadger/layers/painless/tox/multi.svg)](
+  https://microbadger.com/images/painless/tox) [![image size](
+  https://img.shields.io/microbadger/image-size/painless/tox/multi.svg)](
+  https://microbadger.com/images/painless/tox) (provides additional software for running tests against multiple technologies, such as PHP Composer and [mysql_config](
   https://stackoverflow.com/questions/5178292/pip-install-mysql-python-fails-with-environmenterror-mysql-config-not-found))
 
 Example

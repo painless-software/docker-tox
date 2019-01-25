@@ -1,6 +1,6 @@
 FROM themattrix/tox-base
 
-LABEL maintainer "Peter Bittner <peter@painless.software>"
+LABEL maintainer="Peter Bittner <peter@painless.software>"
 
 RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
