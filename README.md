@@ -52,3 +52,11 @@ services:
     volumes:
       - .:/app
 ```
+
+Pragmatic Tips
+--------------
+
+### Speed up your builds
+
+Build your own image running `tox --notest` with your `tox.ini` file, push it to your (private) registry, and use that image for your builds.
+When your builds run any -- and only -- missing dependencies are installed. Your builds will be lightning-fast and still reliable!
