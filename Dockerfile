@@ -8,6 +8,7 @@ RUN apt-get update && \
         git \
         libmysqlclient-dev \
         libpq-dev \
+        ssh \
     && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
