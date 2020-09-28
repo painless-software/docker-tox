@@ -29,7 +29,7 @@ Supported Tags
   https://microbadger.com/images/painless/tox) (base image with tox and Git, prepared for Postgres and MariaDB)
 - [![kubernetes](
   https://img.shields.io/badge/-kubernetes-blue.svg?colorA=22313f&colorB=4a637b&logo=docker)](
-  https://github.com/painless-software/docker-tox/blob/master/kubernetes/Dockerfile#L15-L20) [![size/layers](
+  https://github.com/painless-software/docker-tox/blob/master/kubernetes/Dockerfile#L16-L20) [![size/layers](
   https://images.microbadger.com/badges/image/painless/tox:kubernetes.svg)](
   https://microbadger.com/images/painless/tox) (with additional software for running tests/linting against Kubernetes manifests)
 - [![multi](
